@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited, a{
+    color: gray;
+    text-decoration: none;
+}
+
+main{
+    margin: auto;
+    border: auto;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid gray;
+}
+
+.presentation{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+    height: 280px;
+    width: 280px;
+}
+
+.desc{
+    display: block;
+    position: relative;
+    top: -284px;
+    width: 280px;
+    height: 280px;
+    background-color: gray;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    transition: 0.7s;
+    box-sizing: border-box;
+
+}
+
+.desc span{
+    display: block;
+    position: absolute;
+    top: 125px;
+    width: 100%;
+    text-align: center;
+}
+
+.pic{
+    height: 20px;
+}
+
+.desc:hover{
+    opacity: 0;
+}
+
+img{
+    border-radius: 3px;
+}
+
+.retour{
+    display: block;
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+}
+
+footer{
+    text-align: center;
+    padding-top: 22px;
+}
+
+
+/* responsive */
+
+@media(max-width:767px){
+    main{
+        width: 98%;
+    }
+    header{
+        font-size: 1.1rem;
+    }
+    .presentation{
+        font-size: 0.8rem;
+    }
+}
